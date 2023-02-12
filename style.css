@@ -1021,3 +1021,17 @@ h4 {
 .center-block{
     width: 100px;
 }
+
+.navbar-brand > img{
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .col-sm-6 > a > img {
+        width: 100%;
+    }
+
+    .col-xs-12 > img {
+        width: 90%;
+    }
+}
