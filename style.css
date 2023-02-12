@@ -1,3 +1,7 @@
+@font-face{
+    font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,7 +95,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.avif");
     background-size: 280px 280px;
 }
 
@@ -147,23 +150,23 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel icon {
-    border-color: rgba(0, 0, 0,);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0,);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover {
@@ -172,18 +175,18 @@ a:hover {
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0,);
-    border-color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
 }
 
 .l-bloc .icon-round,
@@ -191,12 +194,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0,);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0,);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn,
@@ -214,7 +217,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -236,15 +239,15 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0,);
-    border-color: rgba(0, 0, 0,);
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .voffset {
@@ -282,6 +285,7 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    height: 40px;
 }
 
 .navbar-brand img {
@@ -626,7 +630,7 @@ h1,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #fff;
+    color: #000000;
 }
 
 .container {
@@ -677,6 +681,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 10px;
+    font-size: 48px;
 }
 
 h2 {
@@ -707,7 +713,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -746,25 +752,25 @@ h4 {
 }
 
 .tc-white {
-    color: #fff;
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #000000!important;
 }
 
 .ltc-atomic-tangerine {
@@ -789,7 +795,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.avif");
+    background-image: url("img/image-de-presentation.avif");
 }
 
 .bg-presentation {
@@ -1011,7 +1017,7 @@ h4 {
         text-align: center;
     }
 }
-@font-face {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-display: swap;
+
+.center-block{
+    width: 100px;
 }
